@@ -1,0 +1,647 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1250
+  viewPortHeight: 769
+  horizontalOffset: 107
+  verticalOffset: -76
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 769
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div><div
+        class="c-text"><div class="c-title">Vertex AI Model Garden</div><div
+        class="c-short-description">Repository for open source and proprietary
+        models, with documentation, APIs, etc.</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Vertex AIWCROQ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Vertex AI
+        shortDescription: Repository for open source and proprietary models, with
+          documentation, APIs, etc.
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Vertex AI
+      editableName: Vertex AI Model Garden
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Vertex AI
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 552
+    offsetY: 317
+    zIndex: 0
+    inEdges:
+      - Orthogonal ConnectorKsvm9
+      - Orthogonal ConnectorLKJZs
+    outEdges:
+      - Dashed Orthogonal ConnectorTPynC
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #0668E1;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png);"></div><div
+        class="c-text"><div class="c-title">Llama Models (Meta)</div><div
+        class="c-short-description">Open-weight language processing and
+        understanding models for AI applications</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Llama</div></div></div></div></div>'
+    id: LlamaCsp5I
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Llama
+        shortDescription: Open-weight language processing and understanding models for
+          AI applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Llama
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Llama
+      editableName: Llama Models (Meta)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Llama
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta_jqnsbc.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109840/sds_logos/Meta__044448_yehmnp.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1690109841/sds_logos/Meta_Black_87_tiugif.png
+      color: "#0668E1"
+      controlText: Llama
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 203
+    offsetY: 237
+    zIndex: 1
+    outEdges:
+      - Orthogonal ConnectorKsvm9
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #227BAB;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1712526945/Gemini_Black_87_r9nuw0.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1712526945/Gemini_x94i26.png);"></div><div
+        class="c-text"><div class="c-title">Gemini (Google)</div><div
+        class="c-short-description">Family of multimodal large language models
+        developed by Google DeepMind</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Gemini</div></div></div></div></div>'
+    id: GeminiW2Bnw
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Gemini
+        shortDescription: Family of multimodal large language models developed by Google DeepMind
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Gemini
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Gemini
+      editableName: Gemini (Google)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Gemini
+      category: 0
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1712526945/Gemini_x94i26.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1712526945/Gemini__044448_yn7xvu.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1712526945/Gemini_Black_87_r9nuw0.png
+      color: "#227BAB"
+      controlText: Gemini
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 203
+    offsetY: 378
+    zIndex: 2
+    outEdges:
+      - Orthogonal ConnectorLKJZs
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png);"></div><div
+        class="c-text"><div class="c-title">Playspaces (Cloud Run)</div><div
+        class="c-short-description">Modular machine learning applications
+        launched with one click</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud RunLLfl1
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Run
+        shortDescription: Modular machine learning applications launched with one click
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Run
+      editableName: Playspaces (Cloud Run)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Run
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run__044448_vfqzy2.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 901
+    offsetY: 280
+    zIndex: 5
+    inEdges:
+      - Dashed Orthogonal ConnectorTPynC
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #cc6300; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_Black_87_mxkdr2.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_sopopl.png);
+        border-radius: 50%"></div></div></div>'
+    id: GradioRDNsq
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Gradio
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Gradio
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Gradio
+      editableName: Gradio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Gradio
+      category: 10
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_sopopl.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio__044448_nl26fc.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723703177/sds_logos/Gradio_Black_87_mxkdr2.png
+      color: "#cc6300"
+      controlText: Gradio
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 1080
+    offsetY: 317
+    zIndex: 7
+    outEdges:
+      - Straight Bidirectional Connectorc13RJ
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png);
+        border-radius: 50%"></div></div></div>'
+    id: Usersr8JlD
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Users
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Users
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Users
+      editableName: Users
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Users
+      category: 6
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_ij2426.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png
+      color: "#616161"
+      controlText: Users
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 1237
+    offsetY: 317
+    zIndex: 8
+    inEdges:
+      - Straight Bidirectional Connectorc13RJ
+connectors:
+  - id: Orthogonal ConnectorKsvm9
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 353
+      y: 237
+    targetPoint:
+      x: 402
+      y: 317
+    sourceID: LlamaCsp5I
+    targetID: Google Vertex AIWCROQ
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Orthogonal ConnectorLKJZs
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 353
+      y: 378
+    targetPoint:
+      x: 402
+      y: 317
+    sourceID: GeminiW2Bnw
+    targetID: Google Vertex AIWCROQ
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Orthogonal ConnectorTPynC
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 702
+      y: 317
+    targetPoint:
+      x: 751
+      y: 280
+    sourceID: Google Vertex AIWCROQ
+    targetID: Google Cloud RunLLfl1
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Straight Bidirectional Connectorc13RJ
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 1130
+      y: 317
+    targetPoint:
+      x: 1187
+      y: 317
+    sourceID: GradioRDNsq
+    targetID: Usersr8JlD
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+selectedItems:
+  width: 0
+  height: 0
